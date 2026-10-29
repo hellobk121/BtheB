@@ -1,0 +1,31 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# node (frontend, from M2)
+node_modules/
+dist/
+
+# source materials (copyrighted) and generated indexes
+data/books/*
+!data/books/.gitkeep
+etc/
+chroma_db/
+*.sqlite3
+
+# local tooling scratch
+.superpowers/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
